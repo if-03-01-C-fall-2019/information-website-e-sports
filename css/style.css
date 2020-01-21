@@ -1,0 +1,169 @@
+@font-face {
+    font-family: ModernSans;
+    src: url('../fonts/ModernSans-Light.otf');
+}
+
+body {
+    font-family: ModernSans;
+    text-shadow: 2px 2px 5px black;
+    background-repeat: no-repeat;
+    background-image: repeating-linear-gradient(#595958, #262626, #0a0707);
+    line-height: 1.5;
+    font-size: 120%;
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 10px;
+}
+
+nav {
+    background: linear-gradient(52deg, #000000, #ffffff);
+    background-size: 200% 200%;
+    -webkit-animation: AnimationName 24s ease infinite;
+    animation: AnimationName 24s ease infinite;
+}
+
+nav li {
+    text-decoration: none;
+    display: inline;
+    width: 300px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+#info {
+    color: white;
+    text-align: center;
+    min-height: 150px;
+    max-height: 250px;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 30px;
+}
+
+header {
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px black;
+    text-align: center;
+    min-height: 900px;
+}
+
+h1 {
+    padding: 320px 10px;
+    margin: auto;
+    max-width: 600px;
+    font-size: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.csgo-parallax {
+    /* The image used */
+    background-image: url("../images/csgo.jpeg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.lol-parallax {
+    /* The image used */
+    background-image: url("../images/lol.jpeg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/background2.jpg");
+    /* Set a specific height */
+    height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main-parallax {
+    background: radial-gradient(#000000, #ffffff);
+    background-size: 200% 200%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 84%
+    }
+
+    50% {
+        background-position: 100% 17%
+    }
+
+    100% {
+        background-position: 0% 84%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 84%
+    }
+
+    50% {
+        background-position: 100% 17%
+    }
+
+    100% {
+        background-position: 0% 84%
+    }
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+section {
+    margin-right: 0px;
+    color: white;
+}
+
+.content {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.lastText {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+section h2 {
+    margin-top: 0px;
+    padding-top: 10px;
+    font-size: 30px;
+}
